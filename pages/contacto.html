@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../multimedia/icono-pestaña.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Contacto</title>
+</head>
+<body class="body-contacto">
+    <header class="gridHeaderContacto">
+        <a href="../index.html">
+            <img class="logo-header-contacto" src="../multimedia/logo.png" alt="logo principal">   
+        </a> 
+        <h1 class="titulo-nav">Pretty Nails</h1>
+        <nav> 
+            <input class="checkbox" type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <img class="menuDesplegable" src="../multimedia/menu.png" alt="menu-desplegable">
+            </label>  
+            <ul class="navegadorOtrasPag">     
+                <li>
+                    <a class="a" href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a class="a" href="../pages/contacto.html">Contacto </a>
+                </li>                                 
+                <li>
+                    <a class="a" href="../pages/dondenosencontras.html">Donde nos encontras </a>
+                </li>
+                <li>
+                    <a class="a" href="../pages/preguntasfrecuentes.html">Preguntas frecuentes </a>
+                </li>
+                <li>
+                    <a class="a" href="../pages/trabajos.html">Trabajos </a>    
+                </li>
+            </ul>  
+        </nav>
+    </header>
+    <main class="main-contacto">
+        <form class="contenedor-flex-formulario">
+            <fieldset class="formulario">
+                <p class="titulo-formulario">Contactanos</p>
+            <div class="form-nombre-apellido">
+                <label class="nombre-apellido-email" for="nombre_apellido">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Nombre">
+                <label class="nombre-apellido-email" for="nombre_apellido">Apellido:</label>
+                <input type="text" name="apellido" placeholder="Apellido">
+                <label class="nombre-apellido-email" for="email">E-mail:</label>
+                <input type="text" name="email" placeholder="E-mail">
+            </div>
+                <p>¿Cual es su consulta?:</p>
+
+                <select  name="opcion">
+                    <option value="opcion">Seleccione</option>
+                    <option value="precio">Precio</option>
+                    <option value="uñas">Uñas</option>
+                    <option value="cuidados">Cuidados</option>
+                    <option value="colores">Colores</option>
+                </select>
+                <div class="especifique-su-consulta">Especifique su consulta:</div>
+                <textarea name="text" cols="50" rows="10" placeholder="Escriba su consulta aqui"></textarea>
+                <input class="boton-enviar" type="button" value="Enviar">
+            </fieldset>
+        </form>
+    </main>    
+    <footer class="footer-contacto">
+
+        <div class="contenedor-footer-contacto">
+            <a class="texto-redes" href=https://www.instagram.com/ba.pretty_nails><img class="icono-redes" src="../multimedia/instagram.png" alt="logo de instagram">Instagram</a>
+            <p class="icono-wpp"><img class="icono-redes" src="../multimedia/whatsapp.png" alt="logo-whatsapp">+54 3571 327632</p>
+            
+        </div>
+
+        <div class="derechos">
+            <p>&copy; 2022 Lautaro Tresca - Todos Los Derechos Reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
